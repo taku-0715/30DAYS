@@ -1,0 +1,330 @@
+body {
+    color: #212529;
+}
+
+header {
+    height: 80px;
+}
+
+a {
+    color: #212529;
+    font-weight: bold;  
+}
+a:hover {
+    color: #aaa;   
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1200px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.header-title {
+    font-size: 24px;   
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.header-lists {
+    display: flex;
+    line-height: 80px;
+}
+
+.header-list {
+    
+}
+.header-list:not(:first-child) {
+    margin-left: 30px;
+}
+
+.top {
+    height: 400px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.top-bg {
+    height: inherit;
+    background: url(../img/main-vsual.png) no-repeat center center / cover;
+}
+
+.section {
+    margin-top: 120px;
+}
+
+.about {
+
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #212529;
+}
+
+.about-content {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-text {
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+}
+
+.course {
+
+}
+
+.course-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: 30%;
+}
+
+.course-item:not(:first-child) {
+    
+}
+
+
+
+.course-item > img  {
+    width: 100%;
+}
+
+.course-item > p  {
+    
+}
+
+.contact{
+
+}
+
+.contact-sub-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+input[type="email"]  {
+    width: 600px;
+    display: block;
+    border: 3px solid #d8d8d8;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    display: inline-block;
+    background: #082b48;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contact-button {
+    background: #ec6d64;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+footer {
+    margin-top: 80px;
+    background: #082b48;
+    padding: 20px 0;
+}
+
+.footer-copyryght {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        height: auto;
+
+    }
+    
+    .container {
+        
+    }
+    
+    .header-content {
+        display: block;
+    }
+    
+    .header-title {
+        font-size: 20px;   
+        text-align: center;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    
+    .header-lists {
+        display: flex;
+        line-height: normal;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    
+    .header-list {
+        
+    }
+    .header-list:not(:first-child) {
+        margin-left: 0;
+    }
+    
+    .top {
+        margin-top: 20px;
+        height: 215px;
+    }
+    
+    .section {
+        margin-top: 80px;
+    }
+    
+    .about {
+    
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .about-content {
+        display: block;
+        margin-top: 50px;
+    }
+    
+    .about-img {
+        width: 100%;
+    }
+    
+    .about-text {
+        margin-left: 0;
+        margin-top: 30px;
+        letter-spacing: 1.5px;
+        line-height: 1.2;
+    }
+    
+    .course {
+    
+    }
+    
+    .course-content {
+        margin-top: 50px;
+        display: block;
+    }
+    
+    .course-item {
+        width: 100%;
+    }
+    
+    .course-item:not(:first-child) {
+        margin-top: 50px;
+    }
+    
+    
+    
+    .course-item > img  {
+        width: 100%;
+    }
+    
+    .course-item > p  {
+        
+    }
+    
+    .contact{
+    
+    }
+    
+    .contact-sub-title {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    
+    input[type="email"]  {
+        width: 70%;
+        max-width: 100%;
+        display: block;
+        border: 3px solid #d8d8d8;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        padding: 10px 30px;
+        display: inline-block;
+        background: #082b48;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+    
+    }
+    
+    .btn:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    .contact-button {
+        background: #ec6d64;
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }
+    
+    footer {
+        margin-top: 50px;
+        background: #082b48;
+        padding: 20px 0;
+    }
+    
+    .footer-copyryght {
+        text-align: right;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+}
